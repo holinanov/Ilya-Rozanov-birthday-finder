@@ -34,7 +34,7 @@ const ilyaTexts = [
   "Ilya falling in love with his freckled future Husband",
   "Ilya showing all of Canada's wildlife what Shane does to him",
   "Ilya and Spaghetti🍝",
-  "Ilya having a naughty intentions while Hollander is occupied",
+  "Ilya having naughty intentions while Hollander is occupied",
   "Ilya pre-NHL draft baby Ilya",
   "Ilya after being saved from his father by Svetlana",
   "Ilya being the best actor ever",
