@@ -1,0 +1,113 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #0a122e ; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 40px;
+  }
+  
+  .container {
+    background:#cc102f; 
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #450a0a;
+    max-width: 480px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Inputs naast elkaar */
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  select {
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    border: 2px solid #fec63a; 
+    background: #ffffff;
+    color: #cc0000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 120px;
+  }
+  
+  /* Button spacing */
+  .button-wrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    border: none;
+    background: #fec63a;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background:  #b3791b;
+  }
+  
+  /* Twitter button */
+  #shareTwitter {
+    margin-top: 1rem;
+    background: #1DA1F2;
+  }
+  
+  #shareTwitter:hover {
+    background: #0d8bd7;
+  }
+  
+  #result {
+    margin-top: 1rem;
+  }
+  
+  #IlyaImage {
+    margin-top: 1rem;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Mobile tweaks */
+  @media (max-width: 480px) {
+    .inputs {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    select {
+      width: 100%;
+    }
+  }
+  
